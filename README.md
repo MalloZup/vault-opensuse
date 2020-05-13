@@ -5,11 +5,11 @@ Howto repo guideline for using vault.
 It was made using version `Vault v1.4.1`
 
 
-# How-to:
+# Fondamentals howto:
 
 1) get vault binary. Install it on server and client
 
-# Server Side:
+## Server Side:
 
 2) start the server
 
@@ -49,9 +49,7 @@ You get the keys and token from `vault operator init`
 
 It get sealed by reboot also, so keep save the keys and the token
 
-# Client
-
-
+## Client
 
 5) login with the token
 
@@ -72,3 +70,6 @@ vault login
 ```
 $ vault kv get -format=json secret/foo
 ```
+
+
+
