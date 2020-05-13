@@ -47,6 +47,8 @@ Initially the server is kind "locked"
 you need to put 3 of the keys to enable the acess to it and start using it. 
 You get the keys and token from `vault operator init`
 
+It get sealed by reboot also, so keep save the keys and the token
+
 # Client
 
 
