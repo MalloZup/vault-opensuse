@@ -19,12 +19,12 @@ A config like:
 storage "file" {
    path = "/jenkins/vault"
 }
-
+# listen on localhost
 listener "tcp" {
   address     = "127.0.0.1:8200"
   tls_disable = 1
 }
-
+#listen on external interface
 listener "tcp" {
   address = "10.162.32.32:8200"
   tls_disable = 1
