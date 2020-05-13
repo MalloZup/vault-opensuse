@@ -62,3 +62,13 @@ VAULT_ADDR=http://10.162.1.1:8200
 vault login
 ````
 
+6) Enable secret engine:
+```vault secrets enable -path=secret/ kv```
+
+7) write secret:
+```vault kv put secret/foo bar=baz```
+
+8) get secret:
+```
+$ vault kv get -format=json secret/foo
+```
